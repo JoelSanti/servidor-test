@@ -1,0 +1,27 @@
+{
+  "name": "servidortest",
+  "version": "1.0.0",
+  "description": "servidor para el test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "joel",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.5.0",
+    "actions-on-google": "^3.0.0",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12"
+  }
+}
